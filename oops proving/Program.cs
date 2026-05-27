@@ -26,22 +26,22 @@ namespace oops_proving
     }
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Counter counter1 = new Counter();
-            Counter counter2=new Counter();
-            Counter counter3= new Counter(); 
+        //static void Main(string[] args)
+        //{
+        //    Counter counter1 = new Counter();
+        //    Counter counter2=new Counter();
+        //    Counter counter3= new Counter(); 
 
-            Console.WriteLine("counter :1");
-            counter1.increment();
-            counter1.increment();
-            Console.WriteLine("counter :2");
-            counter2.increment();
-            counter2.increment();
-            Console.WriteLine("counter :3");
-            counter3.increment();
-            counter3.increment();
+        //    Console.WriteLine("counter :1");
+        //    counter1.increment();
+        //    counter1.increment();
+        //    Console.WriteLine("counter :2");
+        //    counter2.increment();
+        //    counter2.increment();
+        //    Console.WriteLine("counter :3");
+        //    counter3.increment();
+        //    counter3.increment();
 
-        }
+        //}
     }
 }
