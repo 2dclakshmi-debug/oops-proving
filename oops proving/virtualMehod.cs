@@ -30,14 +30,14 @@ namespace oops_proving
     }
     internal class Abc
     {
-        static void Main(string[] args)
-        {
-            Concrete concrete = new Concrete();
-            concrete.Show();
-            concrete.Display();
-            virtualMehod vm=new virtualMehod();
-            vm.message();
-            vm.Show();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Concrete concrete = new Concrete();
+        //    concrete.Show();
+        //    concrete.Display();
+        //    virtualMehod vm=new virtualMehod();
+        //    vm.message();
+        //    vm.Show();
+        //}
     }
 }
