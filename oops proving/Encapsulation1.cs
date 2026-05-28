@@ -10,7 +10,7 @@ namespace oops_proving
     class account
     {
         private double Balance;
-        private static int Pin = 1234;
+        //private static int Pin = 1234;
         public void saving(double amount)
         {
             if (amount > 0)
@@ -45,13 +45,13 @@ namespace oops_proving
         }
         internal class Encapsulation1
         {
-            static void Main(string[] args)
-            {
-                account accc = new account();
-                accc.saving(5000);
-                accc.withdral();
-                Console.WriteLine("Available balance :" + accc.getBalance());
-            }
+            //static void Main(string[] args)
+            //{
+            //    account accc = new account();
+            //    accc.saving(5000);
+            //    accc.withdral();
+            //    Console.WriteLine("Available balance :" + accc.getBalance());
+            //}
         }
     }
 }
